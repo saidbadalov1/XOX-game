@@ -67,7 +67,7 @@ function checkTie() {
 }
 
 function checkRows() {
-    // check rows
+    // Check rows 
     let row1 = blocks[0].textContent == blocks[1].textContent &&
         blocks[0].textContent == blocks[2].textContent && blocks[0].textContent !== ""
     let row2 = blocks[3].textContent == blocks[4].textContent &&
